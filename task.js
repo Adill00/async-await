@@ -6,7 +6,7 @@ async function createDelay(message, delayPeriod) {
     });
 }
 
-//not in this part of task, but it is good to always write,just in case
+//not in this part of task, but it is good practice to always write try-catch block
 async function exampleFunction() {
     const message1 = await createDelay('birinci mesaj consolda log olundu!!', 500);
     console.log(message1);
